@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Counter App</title>
+</head>
+<body>
+
+  <div class="counter-card">
+    <div class="title">COUNTER</div>
+    <div id="count" class="count">0</div>
+    <div class="total-label">TOTAL COUNT</div>
+
+    <div class="step-container">
+      <div class="step-label">STEP</div>
+      <div class="steps">
+        <button class="step-btn active" data-step="1">1</button>
+        <button class="step-btn" data-step="5">5</button>
+        <button class="step-btn" data-step="10">10</button>
+        <button class="step-btn" data-step="100">100</button>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="minus" class="btn btn-minus">-</button>
+      <button id="reset" class="btn btn-reset">RESET</button>
+      <button id="plus" class="btn btn-plus">+</button>
+    </div>
+
+    <div class="keyboard-hint">
+      ↑ ↓ ARROW KEYS • SPACE = +1<br>
+      BACKSPACE = RESET • R = RESET
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
